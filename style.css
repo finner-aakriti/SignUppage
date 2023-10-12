@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.logo h4
+{
+    color: #fff;
+}
+h1{
+    color: #fff;
+}
+nav 
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+   list-style-type: none;
+   display: inline-block;
+}
+nav ul li
+{
+   display: inline-block;
+   margin-right: 20px;
+}
+a
+{
+   text-decoration: none;
+   color: white;
+}
+p
+{
+   text-decoration: none;
+   color: white;
+}
+.container
+{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px;
+}
+.col-2
+{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 h1
+{
+   font-size: 50px;
+   line-height: 60px;
+   margin: 20px 0;
+}
+.col-2 p
+{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.btn
+{
+    display: inline;
+    background: #96247b;
+    padding: 8px 16px;
+    margin: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover
+{
+    background: #36062b;
+}
+.header
+{
+    background: #101276;
+}
+.header .row
+{
+    margin-bottom: 50px;
+}
+
+.signup-block {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+}
+/* Style the title "Sign up now" */
+.signup-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration-color: #111251;
+}
+
+/* Style the form elements */
+.signup-form {
+    margin-top: 20px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-decoration-color: #949494;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f5cae;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+.signin-option p {
+    color: #706d6d;
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+}
+.signin-option a {
+    color: #007bff;
+    font-size: small;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+}
+.line-text {
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+}
+.before-line, .after-line {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px; 
+    background-color: #706d6d; 
+    top: 50%;
+}
+.after-line {
+    right: 0;
+    transform: translateX(5%);
+}
+
+.before-line {
+    left: 0;
+    transform: translateX(-5%);
+}
+
+
+
+/* Style the "Sign in" option */
+
+
+
+.signup-form .form-control {
+    width: 100%;
+    border: 10px;
+    color: #ccccccd2;
+    padding-left: 25px;
+    font-size: 10px;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 2em auto;
+
+  }
+  
+.signup-option a {
+    text-decoration: none;
+    color: #007bff;
+}
+.signup-form .signin
+{
+    background-color: #101276;
+}
+.signup-form .twitter
+{
+    background-color: #007bff;
+}
